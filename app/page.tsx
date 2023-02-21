@@ -27,12 +27,13 @@ function Article({ post }: { post: Post }) {
             style={{
               filter: "invert(100%) url(#white-alpha) invert(100%)",
             }}
-          />
+          />{" "}
+          <h3 className="absolute bg-slate-800 bottom-2 left-2 right-2 font-title opacity-70">
+            <Link href={`post/${post.slug}`}>{post.data.title}</Link>
+          </h3>
         </div>
       )}
-      <h3>
-        <Link href={`post/${post.slug}`}>{post.data.title}</Link>
-      </h3>
+
       <p className="opacity-60">
         <Markdown markdown={post.content.slice(0, 200) + "..."} />
       </p>
