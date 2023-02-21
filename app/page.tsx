@@ -1,91 +1,64 @@
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from './page.module.css'
+// import styles from "./page.module.css";
+import { Suspense } from "react";
+import { postSlugs, getPost } from "lib/markdown";
+import { Post } from "lib/types";
+import { Markdown } from "app/Markdown";
+import Link from "next/link";
+import Image from "next/image";
 
-const inter = Inter({ subsets: ['latin'] })
+const getDate = (date: string | null) => {
+  if (!date) return "";
+  const d = new Date(date);
+  return `${d.getDate()}/${d.getMonth() + 1}/${d.getFullYear()}`;
+};
 
-export default function Home() {
+const getPosts = () => postSlugs.map(slug => getPost(slug));
+
+function Article({ post }: { post: Post }) {
+  console.log(post.data);
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <article className="w-full p-2 my-2 border border-white">
+      {!!post.data.image && (
+        <div className="relative w-full aspect-video">
+          <Image
+            src={`/images/${post.data.image}`}
+            fill={true}
+            alt=""
+            style={{
+              filter: "invert(100%) url(#white-alpha) invert(100%)",
+            }}
+          />
         </div>
-      </div>
+      )}
+      <h3>
+        <Link href={`post/${post.slug}`}>{post.data.title}</Link>
+      </h3>
+      <p className="opacity-60">
+        <Markdown markdown={post.content.slice(0, 200) + "..."} />
+      </p>
+    </article>
+  );
+}
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
-        </div>
-      </div>
+export default async function Home() {
+  const posts: Post[] = await Promise.all(getPosts());
 
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+  return (
+    <>
+      <h1 className="text-4xl w-52 font-title">Meri Leeworthy</h1>
+      <ul className="mt-4">
+        <li>Frontend developer</li>
+        <li>+ design thinking</li>
+        <li>+ social justice</li>
+      </ul>
+      <section className="">
+        <h2 className="mt-32 text-2xl opacity-80 font-title">Work</h2>
+        {posts
+          .filter(post => post.data.isPublished)
+          .map((post, i) => (
+            <Article post={post} key={i} />
+          ))}
+      </section>
+    </>
+  );
 }
