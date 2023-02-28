@@ -1,0 +1,17 @@
+.card .whitefilter {
+  filter: invert(100%) url(#white-alpha) invert(100%);
+}
+
+.card:hover .whitefilter {
+  filter: none;
+}
+
+.title::before {
+  content: "";
+  background-color: #fffe9b;
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+  filter: blur(3rem);
+  inset: -15px;
+}

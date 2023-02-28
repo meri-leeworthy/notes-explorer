@@ -13,8 +13,10 @@ export default function RootLayout({
       */}
       <head />
       <body>
-        <div className="overflow-y-scroll flex max-h-screen bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-teal-200 to-pink-200 w-full">
-          <main className="flex flex-col h-full mx-4 mt-32">{children}</main>
+        <div className="relative flex justify-center w-full h-screen max-h-screen overflow-y-scroll gradient-bg">
+          <main className="flex flex-col h-full mx-4 mt-32 isolate sm:mt-48 lg:mt-64 max-width-xl">
+            {children}
+          </main>
         </div>
         <svg className="w-0 h-0">
           <filter id="white-alpha">

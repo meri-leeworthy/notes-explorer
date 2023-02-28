@@ -42,9 +42,22 @@
   .sligoil-micro-ss04 {
     font-feature-settings: "ss04" on;
   }
+}
 
-  .white-alpha {
-    filter: src("#white-alpha");
+@layer components {
+  .gradient-bg::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    transition: 2s;
+    background-image: radial-gradient(
+      ellipse at center,
+      var(--tw-gradient-stops)
+    );
+    @apply from-teal-200 to-pink-300;
+  }
+  .gradient-bg:has(.card:hover)::before {
+    filter: grayscale(100%);
   }
 }
 

@@ -1,4 +1,4 @@
-// import styles from "./page.module.css";
+import styles from "./page.module.css";
 import { Suspense } from "react";
 import { postSlugs, getPost } from "lib/markdown";
 import { Post } from "lib/types";
@@ -15,28 +15,30 @@ const getDate = (date: string | null) => {
 const getPosts = () => postSlugs.map(slug => getPost(slug));
 
 function Article({ post }: { post: Post }) {
-  console.log(post.data);
   return (
-    <article className="w-full p-2 my-2 border border-white">
+    <article
+      className={`w-full mt-3 mb-4 border border-white shadow-2xl border-opacity-70 card ${styles.card}`}>
       {!!post.data.image && (
-        <div className="relative w-full aspect-video">
-          <Image
-            src={`/images/${post.data.image}`}
-            fill={true}
-            alt=""
-            style={{
-              filter: "invert(100%) url(#white-alpha) invert(100%)",
-            }}
-          />{" "}
-          <h3 className="absolute bg-slate-800 bottom-2 left-2 right-2 font-title opacity-70">
-            <Link href={`post/${post.slug}`}>{post.data.title}</Link>
-          </h3>
-        </div>
+        <Link href={`post/${post.slug}`}>
+          <div className="relative w-full bg-teal-800 bg-opacity-60 aspect-video ">
+            <Image
+              src={`/images/${post.data.image}`}
+              fill={true}
+              alt=""
+              className={styles.whitefilter}
+            />
+            <div className="absolute px-1 w-60 bottom-1 left-1 right-1">
+              <h3 className="inline px-1 py-[2px] text-lg leading-8 bg-pink-300 text-white border border-black border-opacity-40 rounded shadow-xl font-title box-decoration-clone">
+                {post.data.title}
+              </h3>
+            </div>
+          </div>
+        </Link>
       )}
 
-      <p className="opacity-60">
+      <div className="p-2 text-sm text-teal-900 opacity-60 bg-[#fff8]">
         <Markdown markdown={post.content.slice(0, 200) + "..."} />
-      </p>
+      </div>
     </article>
   );
 }
@@ -46,16 +48,22 @@ export default async function Home() {
 
   return (
     <>
-      <h1 className="text-4xl w-52 font-title">Meri Leeworthy</h1>
-      <ul className="mt-4">
-        <li>Frontend developer</li>
+      <h1
+        className={`isolate relative text-4xl w-52 font-title ${styles.title}`}>
+        Meri Leeworthy
+      </h1>
+      <ul className="mt-4 ml-4 leading-loose text-teal-900 font-title isolate">
+        <li>frontend developer</li>
         <li>+ design thinking</li>
         <li>+ social justice</li>
       </ul>
-      <section className="">
-        <h2 className="mt-32 text-2xl opacity-80 font-title">Work</h2>
+      <section className="max-w-lg">
+        <h2 className="mt-32 text-lg opacity-60 font-title">
+          some recent work...
+        </h2>
         {posts
           .filter(post => post.data.isPublished)
+          .filter(post => post.data.tags.includes("recent"))
           .map((post, i) => (
             <Article post={post} key={i} />
           ))}
