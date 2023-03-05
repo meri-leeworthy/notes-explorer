@@ -3,16 +3,18 @@ title: Customising a Cargo Portfolio Site
 isPublished: true
 image: archie2.png
 alt: A screenshot of Archie's website
+date: 20220801
 tags:
   - freelance
   - recent
 ---
 
-Performance and video artist Archie Barry asked me to help them customise their
-artist portfolio site. They had had the opportunity to have subsidised access to
-[Cargo](https://cargo.site/), so we agreed this would be the best platform for
-them to showcase their work. I was asked to make customisations to an existing
-theme. Here is a screenshot of the Lecomte theme I was asked to customise:
+Performance and video artist Archie Barry asked me to implement a new design for
+their artist portfolio site. They had had the opportunity to have subsidised
+access to [Cargo](https://cargo.site/), so we agreed this would be the best
+platform for them to showcase their work. I was asked to make customisations to
+an existing theme. Here is a screenshot of the Lecomte theme I was asked to
+customise:
 
 ![A screenshot of the default Lecomte theme](/images/lecomte.png)
 

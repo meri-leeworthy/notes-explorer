@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import "./globals.css";
 
 export default function RootLayout({
@@ -7,17 +8,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
       <head />
-      <body>
-        <div className="relative flex justify-center w-full h-screen max-h-screen overflow-y-scroll gradient-bg">
-          <main className="flex flex-col h-full mx-4 mt-32 isolate sm:mt-48 lg:mt-64 max-width-xl">
-            {children}
-          </main>
+      <body className="relative flex flex-col items-center w-full h-screen max-h-screen gradient-bg">
+        <div className="flex flex-col px-4 pt-32 isolate sm:pt-48 lg:pt-64">
+          {children}
         </div>
+        <Footer />
         <svg className="w-0 h-0">
           <filter id="white-alpha">
             <feColorMatrix

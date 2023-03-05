@@ -49,6 +49,7 @@
     content: "";
     position: fixed;
     inset: 0;
+    pointer-events: none;
     transition: 2s;
     background-image: radial-gradient(
       ellipse at center,
@@ -58,6 +59,22 @@
   }
   .gradient-bg:has(.card:hover)::before {
     filter: grayscale(100%);
+  }
+
+  p {
+    padding: 0.4rem 0;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  .card p {
+    padding: 0 0;
   }
 }
 

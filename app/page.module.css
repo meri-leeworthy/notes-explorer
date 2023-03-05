@@ -15,3 +15,23 @@
   filter: blur(3rem);
   inset: -15px;
 }
+
+.emojilist li {
+  display: list-item;
+  padding-left: 0.5rem;
+  @apply text-sm my-1;
+}
+
+.quote {
+  position: relative;
+}
+
+.quote::before {
+  content: "";
+  background-color: #fff;
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+  filter: blur(2rem);
+  inset: 20px 0;
+}

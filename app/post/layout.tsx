@@ -7,10 +7,14 @@ export default function PostLayout({
 }) {
   return (
     <>
-      <Link href="/" className="mb-4 text-xl font-title sligoil-micro-ss04">
-        ← Home
-      </Link>
       {children}
+      <div className="mt-12">
+        <Link
+          href="/"
+          className="px-4 no-underline py-2 text-xl font-title hover:border-black border-transparent border-2 rounded-[50%] sligoil-micro-ss04">
+          ← Back
+        </Link>
+      </div>
     </>
   );
 }

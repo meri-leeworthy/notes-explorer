@@ -3,6 +3,7 @@ export type Post = {
     title: string;
     isPublished: boolean;
     publishDate: string;
+    date: number;
     alt: string;
     image: string;
     tags: string[];
