@@ -6,7 +6,7 @@ export default async function Post({ params }: { params: { slug: string } }) {
   const post = await getPost(params.slug);
   return (
     <article
-      className={`flex flex-col items-center max-w-3xl w-full ${styles.post}`}>
+      className={`flex flex-col items-center mx-auto max-w-3xl w-full ${styles.post}`}>
       <div className="relative w-[48rem] mb-12 aspect-video">
         <div className="absolute top-0 right-3 w-[calc(48rem-40px)] bg-teal-800 bg-opacity-60 aspect-video">
           <Image

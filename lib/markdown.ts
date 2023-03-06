@@ -4,6 +4,8 @@ import { Post } from "lib/types";
 import matter from "gray-matter";
 import { readFileSync } from "fs";
 
+export const getPosts = () => postSlugs.map(slug => getPost(slug));
+
 export const getPost = async (slug: string) => {
   const source = readFileSync(path.join(POSTS_PATH, slug + ".md"));
 

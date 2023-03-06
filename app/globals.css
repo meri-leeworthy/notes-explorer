@@ -65,6 +65,11 @@
     padding: 0.4rem 0;
   }
 
+  /* .markdown p {
+    text-decoration: none;
+    @apply no-underline;
+  } */
+
   a {
     text-decoration: underline;
   }

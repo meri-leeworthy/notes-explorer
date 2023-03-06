@@ -6,6 +6,15 @@
   filter: none;
 }
 
+.card .previewtext {
+  opacity: 0.6;
+  mask-image: linear-gradient(to bottom, black 50%, transparent 95%);
+}
+
+.card:hover .previewtext {
+  opacity: 1;
+}
+
 .title::before {
   content: "";
   background-color: #fffe9b;
@@ -18,7 +27,7 @@
 
 .emojilist li {
   display: list-item;
-  padding-left: 0.5rem;
+  padding-left: 0.4rem;
   @apply text-sm my-1;
 }
 

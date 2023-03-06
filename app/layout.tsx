@@ -9,8 +9,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body className="relative flex flex-col items-center w-full h-screen max-h-screen gradient-bg">
-        <div className="flex flex-col px-4 pt-32 isolate sm:pt-48 lg:pt-64">
+      <body className="relative flex flex-col items-center w-screen h-screen max-h-screen gradient-bg">
+        <div className="flex flex-col w-screen px-4 pt-32 isolate">
           {children}
         </div>
         <Footer />
