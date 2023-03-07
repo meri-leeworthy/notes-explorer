@@ -25,7 +25,7 @@ export default async function Work() {
               .filter(post => post.data.tags.includes("freelance"))
               .sort((a, b) => b.data.date - a.data.date)
               .map((post, i) => (
-                <Article post={post} key={i} axis="horizontal" />
+                <Article post={post} key={i} />
               ))}
           </div>
         </section>

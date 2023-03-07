@@ -20,7 +20,7 @@ export default async function Home() {
           .filter(post => post.data.tags.includes("recent"))
           .sort((a, b) => b.data.date - a.data.date)
           .map((post, i) => (
-            <Article post={post} key={i} axis="horizontal" />
+            <Article post={post} key={i} />
           ))}
         <Link
           href="/work"

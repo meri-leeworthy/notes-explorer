@@ -1,7 +1,7 @@
 ---
 title: Customising Discourse to do non-forum things
 isPublished: true
-publishDate: "2021-10-08T00:00:00.000Z"
+date: "20211008"
 image: discourse.png
 alt:
   A screenshot of a customised Discourse instance with a search bar in the

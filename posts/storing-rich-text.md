@@ -1,7 +1,7 @@
 ---
 title: Storing Rich Text
 isPublished: true
-publishDate: "2021-03-25T00:00:00.000Z"
+date: "20210325"
 image: microsoft-word.png
 alt: A historical screenshot of Microsoft Word for Mac 1995
 tags:

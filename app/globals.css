@@ -73,6 +73,10 @@
     }
   }
 
+  code {
+    @apply bg-white bg-opacity-50 px-1 box-decoration-clone rounded;
+  }
+
   .card {
     @apply flex flex-col w-full border border-white shadow-2xl sm:flex-row sm:h-40 sm:max-w-3xl overflow-clip border-opacity-70;
 

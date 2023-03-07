@@ -1,7 +1,7 @@
 ---
 title: Design Tokens and Constraint Based Design
 isPublished: true
-publishDate: "2021-11-06T00:00:00.000Z"
+date: "20211106"
 image: metal-type.png
 alt: A box of metal movable type characters sorted by letter
 tags:

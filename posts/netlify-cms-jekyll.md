@@ -1,7 +1,7 @@
 ---
 title: Netlify CMS and Jekyll
 isPublished: true
-publishDate: "2020-05-03T00:00:00.000Z"
+date: "20200503"
 image: markdown.png
 alt:
   a screenshot showing two vertical panels with markdown text on the left and

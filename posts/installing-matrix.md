@@ -1,9 +1,9 @@
 ---
 title: Installing Matrix with matrix-ansible-docker-deploy
 isPublished: true
-publishDate: "2021-11-08T00:00:00.000Z"
-image: keystone.png
-alt: A screenshot of the Keystone UI
+date: "20211108"
+image: element.png
+alt: Element login screen showing an option to log in with Keycloak
 tags:
   - radical-directory
 ---
