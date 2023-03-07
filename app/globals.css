@@ -65,21 +65,62 @@
     padding: 0.4rem 0;
   }
 
-  /* .markdown p {
-    text-decoration: none;
-    @apply no-underline;
-  } */
-
   a {
     text-decoration: underline;
+
+    :hover {
+      text-decoration: none;
+    }
   }
 
-  a:hover {
-    text-decoration: none;
+  .card {
+    @apply flex flex-col w-full border border-white shadow-2xl sm:flex-row sm:h-40 sm:max-w-3xl overflow-clip border-opacity-70;
+
+    .whitefilter {
+      filter: invert(100%) url(#white-alpha) invert(100%);
+    }
+
+    a {
+      @apply w-full sm:w-auto;
+    }
+
+    .imagecontainer {
+      @apply box-border relative w-full bg-teal-800 bg-opacity-60 sm:w-auto aspect-video sm:h-40;
+    }
+
+    .previewtext {
+      @apply p-2 text-sm text-teal-900 bg-[#fff8] sm:w-full sm:aspect-video sm:overflow-y-clip sm:h-auto h-32;
+      opacity: 0.6;
+      mask-image: linear-gradient(to bottom, black 50%, transparent 95%);
+    }
+
+    p {
+      padding: 0 0;
+    }
+
+    :hover {
+      .whitefilter {
+        filter: none;
+      }
+
+      .previewtext {
+        opacity: 1;
+      }
+    }
   }
 
-  .card p {
-    padding: 0 0;
+  .title {
+    @apply relative text-4xl isolate w-52 font-title;
+  }
+
+  .title::before {
+    content: "";
+    background-color: #fffe9b;
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+    filter: blur(3rem);
+    inset: -15px;
   }
 }
 

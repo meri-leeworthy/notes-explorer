@@ -2,8 +2,8 @@ import styles from "./page.module.css";
 import { getPosts } from "lib/markdown";
 import { Post } from "lib/types";
 import Link from "next/link";
-import Article from "./Article";
-import Header from "./Header";
+import Article from "components/Article";
+import Header from "components/Header";
 
 export default async function Home() {
   const posts: Post[] = await Promise.all(getPosts());
@@ -11,25 +11,25 @@ export default async function Home() {
   return (
     <>
       <Header main />
-      <section className="flex flex-col w-full max-w-lg gap-4 mx-auto">
-        <h2 className="mt-32 text-lg text-teal-900 font-title">
-          some recent work...
+      <section className="flex flex-col w-full max-w-2xl gap-4 mx-auto">
+        <h2 className="mt-32 text-lg text-teal-900 md:-ml-4 font-title">
+          recent work...
         </h2>
         {posts
           .filter(post => post.data.isPublished)
           .filter(post => post.data.tags.includes("recent"))
           .sort((a, b) => b.data.date - a.data.date)
           .map((post, i) => (
-            <Article post={post} key={i} />
+            <Article post={post} key={i} axis="horizontal" />
           ))}
         <Link
           href="/work"
-          className="self-end px-1 text-teal-900 no-underline hover:underline">
+          className="self-end px-1 text-teal-900 no-underline md:-mr-4 hover:underline">
           see more →
         </Link>
       </section>
       <section className="w-full max-w-lg mx-auto">
-        <h2 className="mt-32 mb-4 text-lg text-teal-900 font-title">
+        <h2 className="mt-32 mb-4 text-lg text-teal-900 sm:-ml-4 font-title">
           things I can do...
         </h2>
         <article>

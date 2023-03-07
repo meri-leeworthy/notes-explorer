@@ -1,8 +1,8 @@
 import { getPosts } from "lib/markdown";
 import { Post } from "lib/types";
-import Article from "app/Article";
-import Header from "app/Header";
-import BackButton from "app/Back";
+import Article from "components/Article";
+import Header from "components/Header";
+import BackButton from "components/Back";
 
 // TODO: Get width right on large screens. show vertical articles on small screens
 

@@ -4,7 +4,7 @@ export default function Footer() {
       <p>
         I live and work on the land of the Wurundjeri people of the Kulin
         Nation. I pay respect to their elders past and present and acknowledge
-        that soverienty was never ceded. Always was, always will be Aboriginal
+        that sovereignty was never ceded. Always was, always will be Aboriginal
         land.
       </p>
       <p className="mt-4">

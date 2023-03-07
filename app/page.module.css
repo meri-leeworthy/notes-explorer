@@ -1,30 +1,3 @@
-.card .whitefilter {
-  filter: invert(100%) url(#white-alpha) invert(100%);
-}
-
-.card:hover .whitefilter {
-  filter: none;
-}
-
-.card .previewtext {
-  opacity: 0.6;
-  mask-image: linear-gradient(to bottom, black 50%, transparent 95%);
-}
-
-.card:hover .previewtext {
-  opacity: 1;
-}
-
-.title::before {
-  content: "";
-  background-color: #fffe9b;
-  position: absolute;
-  z-index: -1;
-  border-radius: 50%;
-  filter: blur(3rem);
-  inset: -15px;
-}
-
 .emojilist li {
   display: list-item;
   padding-left: 0.4rem;

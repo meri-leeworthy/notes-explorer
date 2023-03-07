@@ -1,4 +1,4 @@
-import BackButton from "app/Back";
+import BackButton from "components/Back";
 
 export default function PostLayout({
   children,

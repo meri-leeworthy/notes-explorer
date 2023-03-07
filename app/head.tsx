@@ -5,7 +5,7 @@ export default function Head() {
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta
         name="description"
-        content="frontend developer, design thinking, social justice"
+        content="frontend developer, design thinking..."
       />
       <link rel="icon" href="/favicon.ico" />
     </>
