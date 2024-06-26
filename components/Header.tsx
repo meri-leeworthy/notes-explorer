@@ -1,18 +1,39 @@
-import Link from "next/link";
+import Link from "next/link"
 
-export default function Header({ main }: { main?: boolean }) {
+export default function Header() {
   return (
-    <header
-      className={`mx-auto w-full max-w-lg ${main && "sm:pt-16 lg:pt-32"}`}>
+    <header className="flex justify-between w-full max-w-2xl mx-auto sm:pt-16">
       <Link href="/" className="no-underline">
         <h1 className="title">Meri Leeworthy</h1>
       </Link>
-      {main && (
-        <ul className="mt-4 ml-4 leading-loose text-teal-900 font-title isolate">
-          <li>frontend developer</li>
-          <li>+ design thinking</li>
+      <nav>
+        <ul className="text-right font-title">
+          <li>
+            <Link href="/work" className="no-underline">
+              Work
+            </Link>
+          </li>
+          <li>
+            <a href="/Meri_Leeworthy_Resume.pdf" className="no-underline">
+              Resume
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/meri-leeworthy"
+              className="no-underline">
+              Github
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/meri-leeworthy-4a6b7a133/"
+              className="no-underline">
+              LinkedIn
+            </a>
+          </li>
         </ul>
-      )}
+      </nav>
     </header>
-  );
+  )
 }

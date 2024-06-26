@@ -1,18 +1,17 @@
-import styles from "./page.module.css";
-import { getPosts } from "lib/markdown";
-import { Post } from "lib/types";
-import Link from "next/link";
-import Article from "components/Article";
-import Header from "components/Header";
+import styles from "./page.module.css"
+import { getPosts } from "lib/markdown"
+import { Post } from "lib/types"
+import Link from "next/link"
+import Article from "components/Article"
+import Header from "components/Header"
 
 export default async function Home() {
-  const posts: Post[] = await Promise.all(getPosts());
+  const posts: Post[] = await Promise.all(getPosts())
 
   return (
     <>
-      <Header main />
       <section className="flex flex-col w-full max-w-2xl gap-4 mx-auto">
-        <h2 className="mt-32 text-lg text-teal-900 md:-ml-4 font-title">
+        <h2 className="mt-16 text-lg text-teal-900 md:-ml-4 font-title">
           recent work...
         </h2>
         {posts
@@ -94,5 +93,5 @@ export default async function Home() {
         </a>
       </section>
     </>
-  );
+  )
 }

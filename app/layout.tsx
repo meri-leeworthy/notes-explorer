@@ -1,16 +1,18 @@
-import Footer from "components/Footer";
-import "./globals.css";
+import Footer from "components/Footer"
+import "./globals.css"
+import Header from "components/Header"
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
     <html lang="en">
       <head />
-      <body className="relative flex flex-col items-center w-screen h-screen max-h-screen gradient-bg">
-        <div className="flex flex-col w-screen px-4 pt-32 isolate">
+      <body className="relative flex flex-col items-center w-screen h-screen max-h-screen">
+        <Header />
+        <div className="flex flex-col w-screen px-4 pt-16 isolate">
           {children}
         </div>
         <Footer />
@@ -27,5 +29,5 @@ export default function RootLayout({
         </svg>
       </body>
     </html>
-  );
+  )
 }

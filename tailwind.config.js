@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     fontFamily: {
       title: ["Sligoil", "sans-serif"],
-      mono: ["Compagnon", "monospace"],
+      mono: ["Space-Mono", "monospace"],
       sans: ["Vercetti", "sans-serif"],
     },
     extend: {},
   },
   plugins: [],
-};
+}

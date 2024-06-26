@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="max-w-lg mx-4 my-48 lg:mb-72 isolate">
+    <div className="max-w-lg mx-4 my-48 text-sm lg:mb-72 isolate">
       <p>
         I live and work on the land of the Wurundjeri people of the Kulin
         Nation. I pay respect to their elders past and present and acknowledge
@@ -20,5 +20,5 @@ export default function Footer() {
         </a>
       </p>
     </div>
-  );
+  )
 }
