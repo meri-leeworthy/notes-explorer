@@ -6,6 +6,7 @@ image: element.png
 alt: Element login screen showing an option to log in with Keycloak
 tags:
   - radical-directory
+  - projects
 ---
 
 Steps that I've taken (following

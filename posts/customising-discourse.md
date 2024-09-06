@@ -8,6 +8,7 @@ alt:
   centre
 tags:
   - radical-directory
+  - projects
 ---
 
 Discourse is open source forum software that powers most small to medium scale

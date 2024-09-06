@@ -18,12 +18,14 @@ export default function Article({ post }: { post: Post }) {
           <Markdown markdown={post.content.slice(0, 600) + "..."} />
         </div>
         {!!post.data.image && (
-          <Link href={`post/${post.slug}`} className="">
+          <Link
+            href={`post/${post.slug}`}
+            className="min-w-[30%] sm:min-w-[15%]">
             <div className="imagecontainer">
               <Image
                 src={`/images/${post.data.image}`}
                 fill={true}
-                alt={post.data.alt}
+                alt={post.data.alt || post.data.title}
                 className="whitefilter"
               />
             </div>

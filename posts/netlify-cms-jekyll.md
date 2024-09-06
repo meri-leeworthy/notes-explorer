@@ -8,6 +8,7 @@ alt:
   the rendered rich text on the right
 tags:
   - radical-directory
+  - projects
 ---
 
 **This post is made up of messages I sent in the Radical Directory Discord,

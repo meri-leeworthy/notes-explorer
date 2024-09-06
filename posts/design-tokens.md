@@ -5,7 +5,7 @@ date: "20211106"
 image: metal-type.png
 alt: A box of metal movable type characters sorted by letter
 tags:
-  - radical-directory
+  - projects
   - design
 ---
 
