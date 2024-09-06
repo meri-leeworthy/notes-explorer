@@ -41,6 +41,9 @@ dependencies:
   react-remark:
     specifier: ^2.1.0
     version: 2.1.0(react@18.2.0)
+  remark-obsidian:
+    specifier: ^1.8.0
+    version: 1.8.0
   typescript:
     specifier: 4.9.4
     version: 4.9.4
@@ -2969,6 +2972,10 @@ packages:
       micromark-extension-mdxjs: 1.0.0
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /remark-obsidian@1.8.0:
+    resolution: {integrity: sha512-nzL47ykZubW/ELAetSE8+73BFX8kGO+64//7pYnsEuEUrEz5x4AHP9wYhsceFkfK6oftAyugy1FkPcThhdyD2g==}
     dev: false
 
   /remark-parse@10.0.1:
