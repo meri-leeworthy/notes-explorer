@@ -1,13 +1,5 @@
 export type Post = {
-  data: {
-    title: string
-    isPublished: boolean
-    publishDate: string
-    date: number
-    alt?: string
-    image?: string
-    tags: string[]
-  }
+  data: Record<string, any>
   slug: string
   content: string
 }

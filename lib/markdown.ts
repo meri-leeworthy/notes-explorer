@@ -1,15 +1,16 @@
-import fs from "fs";
-import path from "path";
-import { Post } from "lib/types";
-import matter from "gray-matter";
-import { readFileSync } from "fs";
+import fs from "fs"
+import path from "path"
+import { Post } from "lib/types"
+import matter from "gray-matter"
+import { readFileSync } from "fs"
 
-export const getPosts = () => postSlugs.map(slug => getPost(slug));
+export const getPost = (slug: string) => {
+  // console.log(slug, decodeURIComponent(slug))
+  const source = readFileSync(
+    path.join(POSTS_PATH, decodeURIComponent(slug) + ".md")
+  )
 
-export const getPost = async (slug: string) => {
-  const source = readFileSync(path.join(POSTS_PATH, slug + ".md"));
-
-  const { content, data } = matter(source);
+  const { content, data } = matter(source)
   // const dataStrings = ["title", "publishDate", "alt", "image"];
   // for (const key of dataStrings) {
   //   if (!(key in data)) {
@@ -25,12 +26,14 @@ export const getPost = async (slug: string) => {
   //   throw new Error(`no tags found in post ${slug}`);
   // }
 
-  return { data, slug, content } as Post;
-};
+  return { data, slug, content }
+}
 
-export const POSTS_PATH = path.join(process.cwd(), "posts");
+export const POSTS_PATH = path.join(process.cwd(), "posts")
 
 export const postSlugs = fs
   .readdirSync(POSTS_PATH)
   .filter(path => /\.md/.test(path))
-  .map(path => path.slice(0, -3));
+  .map(path => path.slice(0, -3))
+
+export const posts = postSlugs.map(slug => getPost(slug))

@@ -1,13 +1,11 @@
 import styles from "./page.module.css"
-import { getPosts } from "lib/markdown"
+import { posts } from "lib/markdown"
 import { Post } from "lib/types"
 import Link from "next/link"
 import Article from "components/Article"
 import Header from "components/Header"
 
 export default async function Home() {
-  const posts: Post[] = await Promise.all(getPosts())
-
   return (
     <>
       <section className="flex flex-col w-full max-w-2xl gap-4 mx-auto">

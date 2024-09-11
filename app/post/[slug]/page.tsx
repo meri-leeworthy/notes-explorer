@@ -5,7 +5,7 @@ import Image from "next/image"
 import Header from "components/Header"
 
 export default async function Post({ params }: { params: { slug: string } }) {
-  const post = await getPost(params.slug)
+  const post = getPost(params.slug)
   return (
     <article
       className={`flex flex-col items-center mx-auto max-w-3xl w-full ${styles.post}`}>

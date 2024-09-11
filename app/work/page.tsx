@@ -1,4 +1,4 @@
-import { getPosts } from "lib/markdown"
+import { posts } from "lib/markdown"
 import { Post } from "lib/types"
 import Article from "components/Article"
 import BackButton from "components/Back"
@@ -6,7 +6,6 @@ import BackButton from "components/Back"
 // TODO: Get width right on large screens. show vertical articles on small screens
 
 export default async function Work() {
-  const posts: Post[] = await Promise.all(getPosts())
   return (
     <>
       <main className="w-full max-w-3xl mx-auto mt-16">

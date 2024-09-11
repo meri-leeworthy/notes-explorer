@@ -1,0 +1,6 @@
+---
+aliases:
+  - anarchism
+  - anarchist
+  - anarchy
+---
