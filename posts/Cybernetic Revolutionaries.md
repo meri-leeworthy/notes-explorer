@@ -6,7 +6,7 @@ year: "2014"
 https://mitpress.mit.edu/9780262525961/cybernetic-revolutionaries/
 
 > [!DESCRIPTION]
-> **A historical study of Chile's twin experiments with cybernetics and socialism, and what they tell us about the relationship of technology and politics.**
+> **A historical study of Chile's twin experiments with [[Cybernetics|cybernetics]] and [[socialism]], and what they tell us about the relationship of technology and politics.**
 > 
 > In _Cybernetic Revolutionaries_, Eden Medina tells the history of two intersecting utopian visions, one political and one technological. The first was Chile's experiment with peaceful socialist change under Salvador Allende; the second was the simultaneous attempt to build a computer system that would manage Chile's economy. Neither vision was fully realized—Allende's government ended with a violent military coup; the system, known as [[Project Cybersyn]], was never completely implemented—but they hold lessons for today about the relationship between technology and politics.
 > 

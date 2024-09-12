@@ -10,7 +10,8 @@ export default async function Post({ params }: { params: { slug: string } }) {
   } catch (error) {
     return (
       <div className="text-center">
-        {decodeURIComponent(params.slug)} doesn&apos;t yet exist in my notes
+        {decodeURIComponent(params.slug)} isn&apos;t currently in my published
+        notes
       </div>
     )
   }
