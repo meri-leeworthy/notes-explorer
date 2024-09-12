@@ -39,11 +39,11 @@ function StandardiseObsidianLinks(markdown: string) {
   return markdown
     .replace(/\.\.\/public\//g, () => "/")
     .replace(/\n/g, () => "\n\n")
+    .replace(/\[\[([^\|\]]+)\]\]/g, (_, link) => {
+      return `[${link}](/${encodeURIComponent(link)})`
+    })
     .replace(/\[\[(.*?)\|(.*?)\]\]/g, (_, link, display) => {
       return `[${display}](/${encodeURIComponent(link)})`
-    })
-    .replace(/\[\[(.*?)\]\]/g, (_, link) => {
-      return `[${link}](/${encodeURIComponent(link)})`
     })
 }
 
