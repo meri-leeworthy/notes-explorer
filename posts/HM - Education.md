@@ -1,3 +1,6 @@
+---
+type: chapter
+---
 [[A Hacker Manifesto]], Chapter 3
 Prev: [[HM - Class]]
 Next: [[HM - Hacking]]

@@ -1,3 +1,6 @@
+---
+type: chapter
+---
 [[A Hacker Manifesto]], Chapter 2
 Prev: [[HM - Abstraction]]
 Next: [[HM - Education]]

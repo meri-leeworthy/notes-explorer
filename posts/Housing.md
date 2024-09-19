@@ -3,6 +3,7 @@ tags:
   - Housing
   - HousingCooperatives
   - HousingInsecurity
+type: topic
 ---
 - [[Landlords]]
 - [[A radical cooperative movement]]

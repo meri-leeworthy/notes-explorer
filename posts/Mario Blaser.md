@@ -1,6 +1,7 @@
 ---
 aliases:
   - Blaser, Mario
+type: person
 ---
 [[Political Ontology]]
 [[Life Projects]]

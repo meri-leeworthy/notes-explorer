@@ -1,6 +1,7 @@
 ---
 aliases:
   - de la Cadena, Marisol
+type: person
 ---
 References for [[Designs for the Pluriverse]]
 de la Cadena, Marisol. 2015. Earth Beings: Ecologies of Practice across Andean Worlds. Dur- ham, NC: Duke University Press. de la Cadena, Marisol. 2010. 

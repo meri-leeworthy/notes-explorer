@@ -1,3 +1,7 @@
+---
+type: essay
+editor: Endnotes
+---
 #Endnotes 5
 
 Italian Invariance in the 1970s

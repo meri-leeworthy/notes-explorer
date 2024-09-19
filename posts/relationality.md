@@ -1,6 +1,7 @@
 ---
 aliases:
   - relational
+type: topic
 ---
 Jane Bennett Vibrant Matter 
 Vital Materialism #Materialism

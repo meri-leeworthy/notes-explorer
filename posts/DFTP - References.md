@@ -1,3 +1,6 @@
+---
+type: chapter
+---
 
 Ackerman, Diane. 2014. The ­Human Age: The World ­Shaped by Us. New York: W. W. Norton. 
 

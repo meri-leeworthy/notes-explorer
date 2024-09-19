@@ -1,6 +1,7 @@
 ---
 author: Alex Parkes
 year: "2020"
+type: paper
 ---
 [[Alex_Parke_Honors_Thesis__16123615.pdf]]
 

@@ -1,3 +1,6 @@
+---
+type: chapter
+---
 [[A Hacker Manifesto]], Chapter 6
 Prev: [[HM - History]]
 Next: [[HM - Nature]]

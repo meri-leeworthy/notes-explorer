@@ -1,3 +1,6 @@
+---
+type: person
+---
 advisor to Pinochet
 
 Austrian school of economics

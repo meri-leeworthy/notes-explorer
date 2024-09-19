@@ -1,0 +1,54 @@
+.post p {
+  @apply text-sm;
+}
+
+.post ul {
+  @apply list-outside ml-4 list-disc text-sm;
+}
+
+.post li {
+  @apply my-1;
+}
+
+.post table {
+  @apply w-1/2 ml-auto text-xs font-mono mb-6;
+}
+
+.post table th {
+  @apply text-slate-700 font-normal text-left pr-2;
+}
+
+.post h1 {
+  @apply text-3xl font-bold my-4 font-title;
+}
+
+.post h2 {
+  @apply text-2xl font-bold my-4 font-title;
+}
+
+.post strong {
+  @apply font-bold;
+}
+
+.post ul {
+  @apply w-full;
+}
+
+.post ul li {
+  @apply py-0 my-0;
+}
+
+.post ul li p {
+  @apply py-0 my-0;
+}
+
+.post blockquote {
+  @apply border-l-4 border-slate-700 pl-4 my-4;
+}
+
+.post section.backlinks {
+  @apply mt-6;
+}
+.post section h2, .post section ul li {
+  @apply text-slate-700;
+}

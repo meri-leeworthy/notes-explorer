@@ -1,3 +1,6 @@
+---
+type: chapter
+---
 [[A Hacker Manifesto]], Chapter 5
 Prev: [[HM - Hacking]]
 Next: [[HM - Information]]

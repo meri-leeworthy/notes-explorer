@@ -1,3 +1,6 @@
+---
+type: statement
+---
 https://ilclabor.com/ilc-first-principles/
 
 **Who we are**  

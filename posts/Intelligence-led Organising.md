@@ -1,3 +1,6 @@
+---
+type: topic
+---
 See also [[Counter-Intelligence]]
 
 Exploring threat modelling, trust models and intelligence sharing practices for social movements

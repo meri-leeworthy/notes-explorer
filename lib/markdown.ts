@@ -20,13 +20,9 @@ export const getPost = (slug: string): Post => {
   const source = readFileSync(
     path.join(POSTS_PATH, decodeURIComponent(slug) + ".md")
   )
-
   const { content, data } = matter(source)
-
   const backlinks = backlinksMap[slug] || []
-
   console.log(backlinks)
-
   return { data, slug, content, backlinks }
 }
 

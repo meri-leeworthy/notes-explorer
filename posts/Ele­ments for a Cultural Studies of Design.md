@@ -1,5 +1,6 @@
 ---
-aliases: []
+aliases: 
+type: chapter
 ---
 >Conventional discipline-­based design education can not contribute to substantial change ­unless students  are inducted into understanding theories of power, social structure and social change, and the like. If one were to design a postgraduate (or even undergraduate) degree course in, say Meta-D­esign or Transition Design, it might, on the surface, look more like Hu­manities than design. 
 	Anne-­Marie Willis, "Transition Design: The Need to Refuse Discipline and Transcend Instrumentalism"

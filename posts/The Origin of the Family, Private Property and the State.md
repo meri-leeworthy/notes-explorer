@@ -1,1 +1,4 @@
+---
+type: book
+---
 [[Friedrich Engels]]

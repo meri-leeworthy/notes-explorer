@@ -1,3 +1,6 @@
+---
+type: chapter
+---
 >Thus we confront the prob­lem of understanding how  our experience--t­he praxis of our living--is coupled  to a surrounding world which appears filled with  regularities that are at ­every instant the result of our biological and social histories.
 >	Humberto Maturana and Francisco Varela, The Tree of   Knowledge: The Biological Roots of ­Human Understanding
 

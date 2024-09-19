@@ -48,3 +48,9 @@
 .post section h2, .post section ul li {
   @apply text-slate-700;
 }
+
+.post a[href^="http"]:not([href*="yourdomain.com"])::after {
+  content: " \2197"; /* Add an up-right arrow */
+  display: inline-block;
+  margin-left: 0px;
+}

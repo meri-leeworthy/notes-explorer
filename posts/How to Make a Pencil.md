@@ -1,3 +1,7 @@
+---
+type: essay
+author: Aaron Benanev
+---
 [[Aaron Benanav]]
 
 https://logicmag.io/commons/how-to-make-a-pencil/

@@ -1,6 +1,7 @@
 ---
 aliases:
   - pluriversal
+type: topic
 ---
 [[Designs for the Pluriverse]] Index:
 	4–7, 117, 170–71, 190; 

@@ -1,3 +1,6 @@
+---
+type: chapter
+---
 [[A Hacker Manifesto]]
 Prev: [[HM - State]]
 Next: [[HM - Surplus]]

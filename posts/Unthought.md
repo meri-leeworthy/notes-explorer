@@ -3,7 +3,7 @@ type: book
 author: N. Katherine Hayles
 ---
 https://press.uchicago.edu/ucp/books/book/chicago/U/bo25861765.html
-[[Open Unthought_ The Power of the Cog - Katherine Hayles.pdf]]
+[[Unthought_Katherine_Hayles.pdf]]
 
 
 ![](../public/9be11a118f4e329619332830fa81aade.jpeg)

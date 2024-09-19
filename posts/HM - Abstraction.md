@@ -1,3 +1,6 @@
+---
+type: chapter
+---
 [[A Hacker Manifesto]], Chapter 1
 Next: [[HM - Class]]
 

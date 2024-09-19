@@ -1,3 +1,6 @@
+---
+type: chapter
+---
  > Design is evolving from its position of relative insignificance within business (and the larger envelope  of nature), to become the biggest project of all....  Massive Change is not about the world of design; it's  about the design of the world.
 
    · Bruce Mau and the Institute without Bound­aries,  Massive Change

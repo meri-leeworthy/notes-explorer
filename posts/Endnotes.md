@@ -1,3 +1,6 @@
+---
+type: organisation
+---
 #### Issue 4
 - [[The Defeat of the Workers Movement]] 
 - [[An Identical Abject-Subject?]]

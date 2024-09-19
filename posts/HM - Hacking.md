@@ -1,3 +1,6 @@
+---
+type: chapter
+---
 [[A Hacker Manifesto]], Chapter 4
 Prev: [[HM - Education]]
 Next: [[HM - History]]
