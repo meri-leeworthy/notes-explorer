@@ -1,1 +1,4 @@
-Comes after dependency theory
+---
+type: topic
+---
+Comes after [[dependency theory]]

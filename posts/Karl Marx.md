@@ -4,4 +4,5 @@ aliases:
   - Marx, Karl
 type: person
 ---
-[[Das Kapital]]
+[[Capital (Marx)]]
+

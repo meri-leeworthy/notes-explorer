@@ -299,6 +299,7 @@ Axiomatic: capitalist, 454-73 passim
 - and State apparatus, 460-73 passim
 - and stratification, 57
 - See also Capitalism; State apparatus 
+
 Bach, Johann Sebastian: 511 
 Bachelard,Gaston: 236,238,313,555n.32 
 Badiou, Alain: 537 n. 20 
@@ -422,7 +423,7 @@ Block: and becoming, 294, 299
 - and content and expression, 299
 - See also Flow; Line of flight 
 "Blumfeld": 169 
-Body: and affect, 256-57
+Body: and [[affect]], 256-57
 - and cartography, 260-61
 - and faciality, 115-16, 170-72, 176, 181
 - and haeccity, 260-61
@@ -581,16 +582,13 @@ Chopin, Frederic: 271
 Christ: 124, 301, 533 n. 7
 - and faciality, 176-79, 182, 184-85, 187, 189
 - and incorporeal transformation, 81
-- See also Bible, the; 
-Christianity
-- Religion 
+- See also Bible, the; Christianity; Religion 
 Christen, Yves: 518-19 n. 5 
 Christianity: semiotic of, 125
 - translation of, 137
 - See also Christ; Religion 
 Chromaticism: and linguistics, 95-100
-- See also Music
-- Painting 
+- See also Music, Painting 
 Chronochromie: 320 
 Church: and becoming-animal, 247-48
 - and segmentarity, 218
@@ -639,8 +637,8 @@ Compars: and royal science, 369-70
 - See also Dispars 
 Composition: see 
 Consistency 
-Computer science: and arborescent schema, 16
-- See also Information science; Science; Technology 
+==Computer science: and arborescent schema, 16==
+- ==See also Information science; Science; Technology== 
 Concept: and identity, xi
 - line as, 22
 - and State philosophy, xii-xiii
@@ -722,7 +720,7 @@ Democritus: 361
 - and State science, 363
 - See also Lucretius; Molecule 
 De Niro, Robert: and becoming-animal, 274 
-Derrida, Jacques: xi, 555 n. 32
+[[Jacques Derrida|Derrida, Jacques]]: xi, 555 n. 32
 - and war machine, 417 
 Desargues, Gerard: 363, 365 
 Descartes, Rene: 128, 530 n. 32 
@@ -736,7 +734,7 @@ Despot: as flow, 19-20
 - See also State apparatus 
 Dessert, Daniel: 555 n. 30 
 Detective novel: as literary genre, 192-93 
-Deterritorialization: and abstract machine, 142-45
+[[deterritorialization]]: and abstract machine, 142-45
 - and assemblage, 333-34, 504-5
 - and becoming, 291-92, 306-7
 - and body without organs, 156-57, 161
@@ -825,6 +823,7 @@ Dupouy, Roger: 532 n. 11, 540 n. 32
 Dupreel, Eugene: and consistency, 328-29 
 Durkheim, Emile: 218-19, 376 
 Duvignaud, Jean: 237 
+
 Earth: and deterritorialization, 40
 - and romanticism, 338-42
 - See also Deterritorialization; Territory 
@@ -852,9 +851,8 @@ Enunciation: and assemblage, 7, 22, 37
 - social character of, 79-80
 - subject of, 129
 - See also Linguistics; Statement 
-Epistemology: and war machine, 361-74 passim
-- See also Concept
-- Idea; Subjedification; Subjectivity; Thought 
+[[epistemology]]: and war machine, 361-74 passim
+- See also Concept; Idea; Subjedification; Subjectivity; Thought 
 Erckmann, Emile: 246 
 Ernst, Max: and faciality, 182 
 Esquirol, Jean: 119-20 
