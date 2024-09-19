@@ -41,3 +41,10 @@
 .post blockquote {
   @apply border-l-4 border-slate-700 pl-4 my-4;
 }
+
+.post section.backlinks {
+  @apply mt-6;
+}
+.post section h2, .post section ul li {
+  @apply text-slate-700;
+}

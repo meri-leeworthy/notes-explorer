@@ -26,7 +26,9 @@ export function Markdown({ markdown }: { markdown: string }) {
     .use(rehypeReact, production)
     .processSync(standardisedMarkdown)
 
-  return <Suspense>{processReactTree(result.result as JSX.Element)}</Suspense>
+  return (
+    <Suspense>{processReactTree(processCitations(result.result))}</Suspense>
+  )
   // console.log(standardisedMarkdown)
   // const renderedMarkdown = useRemarkSync(standardisedMarkdown, {
   //   remarkPlugins: [remarkCite],
@@ -86,4 +88,65 @@ const processReactTree = (
   rootElement: React.ReactElement
 ): React.ReactElement => {
   return processNode(rootElement) as React.ReactElement
+}
+
+interface Citation {
+  id: string
+  text: string
+}
+
+const processCitations = (
+  rootElement: React.ReactElement
+): React.ReactElement => {
+  const citations: Citation[] = []
+  let endnoteRegex = /\[\^(\d+)\]:\s*((?:.|\n)*?)(?=\n\[\^\d+\]:|$)/g
+
+  const extractCitations = (text: string) => {
+    let match
+    while ((match = endnoteRegex.exec(text)) !== null) {
+      citations.push({ id: match[1], text: match[2].trim() })
+    }
+    return text.replace(endnoteRegex, "")
+  }
+
+  const processNode = (node: React.ReactNode): React.ReactNode => {
+    if (typeof node === "string") {
+      return extractCitations(node)
+    }
+
+    if (React.isValidElement(node)) {
+      let newChildren: React.ReactNode[] = []
+      let asides: React.ReactNode[] = []
+
+      React.Children.forEach(node.props.children, child => {
+        if (typeof child === "string") {
+          const processedText = child.replace(/\[\^(\d+)\]/g, (match, p1) => {
+            const citation = citations.find(c => c.id === p1)
+            if (citation) {
+              asides.push(
+                <aside key={`citation-${p1}`}>
+                  [{p1}]: {citation.text}
+                </aside>
+              )
+            }
+            return match
+          })
+          newChildren.push(processedText)
+        } else {
+          newChildren.push(processNode(child))
+        }
+      })
+
+      return React.cloneElement(node, {}, ...asides, ...newChildren)
+    }
+
+    if (Array.isArray(node)) {
+      return node.map(processNode)
+    }
+
+    return node
+  }
+
+  const processedContent = processNode(rootElement)
+  return processedContent as React.ReactElement
 }

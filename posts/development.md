@@ -7,22 +7,22 @@ aliases:
 # Designs for the Pluriverse
 
 [[Designs for the Pluriverse]] index:
-	**6–7**, **95**, 177, 224, 245n7; 
-	agriculture and, 66; 
-	alternatives to, 90, 96, 147–48, 154, 161–62, 205–9; 
-	autonomy and, **167**, 172–73, 184; 
-	in Bolivia, 254n17; 
-	in Cauca Valley, 190–201; 
-	coloniality and, 31, 94; 
-	critics of, 242n8, 246n12, 250n17; 
-	defuturing projects and, 190–91; 
-	design in, 59–62, 65, 184–88, 187; 
-	globalization and, 65, 83, 141, 172; 
-	governmentality and, 60; 
-	heteronomous, 32, 173; 
-	Life Plans and, 73–75, 173, 251n23; 
-	technological, 18, 31–32, 116, 231n8. 
-	See also degrowth; sustainability
+- **6–7**, **95**, 177, 224, 245n7; 
+- agriculture and, 66; 
+- alternatives to, 90, 96, 147–48, 154, 161–62, 205–9; 
+- autonomy and, **167**, 172–73, 184; 
+- in Bolivia, 254n17; 
+- in Cauca Valley, 190–201; 
+- coloniality and, 31, 94; 
+- critics of, 242n8, 246n12, 250n17; 
+- defuturing projects and, 190–91; 
+- design in, 59–62, 65, 184–88, 187; 
+- globalization and, 65, 83, 141, 172; 
+- governmentality and, 60; 
+- heteronomous, 32, 173; 
+- Life Plans and, 73–75, 173, 251n23; 
+- technological, 18, 31–32, 116, 231n8. 
+- See also degrowth; sustainability
 
 [[DFTP - Introduction]] 6-7
 >**From “Development” to the Pluriverse** 
@@ -34,7 +34,7 @@ aliases:
 
 [[Autonomous Design and the Politics of Relationality and the Communal]] 177
 >"*[[comunalidad]]* is a neologism that names a mode of being and living among the peoples of the Sierra Norte of Oaxaca, plus other regions in this state of southeastern Mexico. It expresses ==a stubborn resistance to all forms of development that have arrived to the area, which has had to accept diverse accommodations as well as a contemporary type of life that incorporates what arrives from afar, yet without allowing it to destroy or dissolve what is one’s own (*lo propio*)==. . . . [[Communality]] is the verbal predicate of the We. It names its action and not its ontology. Incarnated verbs: eat, speak, learn . . . These are collectively created in specific places. It only exists in its execution. . . . We open ourselves to all beings and forces, because even if the We comes about in the actions of concrete women, men and children, in that same movement, all that is visible and invisible below and on the Land also participates, following the principle of complementarity among all that is different. The communal is not a set of things, but an integral fluidity." 
->	([[Arturo Guerrero]], forthcoming, 1)
+>- ([[Arturo Guerrero]], forthcoming, 1)
 
 ### [[autonomy]] and developmentalism
 
@@ -43,4 +43,4 @@ aliases:
 
 # In the Way of Development
 >"Development as a practice and discourse embodies the European Enlightenment’s implicit project of making specific local world-views and values, those broadly described as modern and Western European, into universals. As a successor to [[imperialism]] and [[colonialism]], development has extended the reach of those local world-views and values far beyond the [[place]] in which they took shape."
->	[[In the Way of Development - Indigenous Peoples, Life Projects and Globalization]] p.26 chapter 2 "Life Projects: Indigenous Peoples’ Agency and Development" [[Mario Blaser]]
+>- [[In the Way of Development - Indigenous Peoples, Life Projects and Globalization]] p.26 chapter 2 "Life Projects: Indigenous Peoples’ Agency and Development" [[Mario Blaser]]

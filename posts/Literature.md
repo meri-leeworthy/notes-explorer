@@ -37,6 +37,7 @@
 [[In the Way of Development - Indigenous Peoples, Life Projects and Globalization]]
 [[A Hacker Manifesto]]
 [[The Unaccountability Machine]]
+[[Red Skin, White Masks]]
 ## Essays
 [[Contours of the World Commune]]
 [[Revolutionary Motives]]
@@ -55,11 +56,19 @@
 [[The Belly of the Revolution - Agriculture, Energy, and the Future of Communism]]
 [[An Identical Abject-Subject?]]
 [[The Internet and Development - A Critical Perspective]]
+[[Critique of Techno-Feudal Reason]]
+[[Capital and Cybernetics]]
 ## Papers
 [[Fields of Commoning]]
 [[Pudding - user discovery for anonymity networks]]
 [[FABULA - Intelligence Report Generation Using Retrieval-Augmented Narrative Construction]]
 [[From Local to Global - A Graph RAG Approach to Query-Focused Summarization]]
 [[Unexpected Benefits of Self-Modeling in Neural Systems]]
+[[Allostasis Machines as Continuous Cognitive Modelling]]
+[[Primitive Accumulation and the Northern Territory Intervention]]
+## Statements
+[[ILC Mission Statement]]
+[[ILC First Principles]]
 ## Podcasts
 [[Living The Dream After White Australia Episode 4 - The White Possessive]]
+[[The Santiago Boys]]
