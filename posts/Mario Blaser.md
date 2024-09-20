@@ -7,7 +7,7 @@ type: person
 [[Life Projects]]
 [[In the Way of Development - Indigenous Peoples, Life Projects and Globalization]]
 
-References from [[Designs for the Pluriverse]]
+## References from [[Designs for the Pluriverse]]
 
 Blaser, Mario. Forthcoming. “Life Projects.” In The Postdevelopment Dictionary, edited by Ashish Kothari, Federico Damaria, Alberto Acosta, Arturo Escobar, and Ariel Salleh. London: Zed Books. 
 
@@ -17,6 +17,6 @@ Blaser, Mario. 2010. Storytelling Globalization from the Chaco and Beyond. Durha
 
 Blaser, Mario. 2009. “The Political Ontology of a Sustainable Hunting Program.” American Anthropologist 111 (1): 10–20. 
 
-Blaser, Mario, Marisol de la Cadena, and Arturo Escobar. 2014. “Introduction: The Anthro- pocene and the One-World.” Unpublished manuscript. 
+Blaser, Mario, [[Marisol de la Cadena]], and [[Arturo Escobar]]. 2014. “Introduction: The Anthro- pocene and the One-World.” Unpublished manuscript. 
 
-Blaser, Mario, Harvey Feit, and Glenn McRae, eds. 2004. In the Way of Development: Indigenous Peoples, Life Projects, and Globalization. London: Zed Books
+Blaser, Mario, Harvey Feit, and Glenn McRae, eds. 2004. [[In the Way of Development - Indigenous Peoples, Life Projects and Globalization]]. London: Zed Books
