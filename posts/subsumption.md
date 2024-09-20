@@ -1,5 +1,8 @@
+---
+type: topic
+---
 >**Subsumption, Formal and Real**
->Subsumption is the process by which the social relations of production penetrate the labour process itself. [[Karl Marx|Marx]] distinguishes j5   the “formal” and “real” subsumption of the labour process by capital.
+>Subsumption is the process by which the social relations of production penetrate the labour process itself. [[Karl Marx|Marx]] distinguishes between the “formal” and “real” subsumption of the labour process by capital.
 >This concept is central to how Marx conceives of how capitalism establishes itself. In the chapter in _[[Capital (Marx)|Capital]]_ on “**[[primitive accumulation]]**” Marx showed that genuinely capitalist accumulation could only take place on the basis of productive forces and social relations which themselves could only arise on the basis of capital. At first, capital draws into itself an _existing_ labour process – techniques, markets, means of production and workers. This Marx calls _“formal”_ subsumption, under which the whole labour process continues much as before, but by monopolising the [means of production](https://www.marxists.org/glossary/terms/m/e.htm#means-production), and therefore the workers’ means of subsistence, the capitalist _compels_ the worker to submit to the [wage-labour](https://www.marxists.org/glossary/terms/w/a.htm#wage-labour), and by using the existing markets, is able to accumulate capital.
 >Capitalism as such, however, cannot develop on the limited basis it finds in the already existing forces of production. The pre-requisites for a _real_ capitalist labour process can only be created by capital itself. Thus, capital gradually _transforms_ the social relations and modes of labour until they become thoroughly imbued with the nature and requirements of capital, and the labour process is _really_ subsumed under capital. This is Marx’s solution to the paradox that only capital can create the conditions for capitalist production.
 

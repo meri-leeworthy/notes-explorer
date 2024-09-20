@@ -1,3 +1,6 @@
+---
+type: topic
+---
 - [[Housing Cooperatives]]
 	- Cooperative law
 	- TODO Idea to call/email a state MP for support with parliamentary library ? What is the exact question?

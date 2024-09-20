@@ -1,3 +1,6 @@
+---
+type: topic
+---
 ## GPT:
 
 Mass surveillance in Australia has been an ongoing and controversial topic, especially with the increasing reliance on digital technologies and national security concerns. Key aspects of mass surveillance in Australia include:

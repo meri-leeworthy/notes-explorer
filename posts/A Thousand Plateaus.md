@@ -971,7 +971,7 @@ Fort-Da: and refrain, 299
 - See also Freud, Sigmund
 - Psychoanalysis 
 Fortes, Meyer: 535 n. 3, 536 n. 9 
-Foucault, Michel: xi, xviii, 517 n. 8, 518 n. 20, 528 n. 5, 530-31 n. 39, 536-37 n. 16, 538 n. 1, 556 n. 44
+[[Michel Foucault|Foucault, Michel]]: xi, xviii, 517 n. 8, 518 n. 20, 528 n. 5, 530-31 n. 39, 536-37 n. 16, 538 n. 1, 556 n. 44
 - and language, 66-67
 - and nomad thought, xiii
 - and order-word, 87
@@ -1181,7 +1181,7 @@ Information: genetic, 10-11
 - and language, 75-76, 78-79, 85
 - and signifiance, 79
 - See also Communication 
-Information science: 5, 16, 79, 179-80
+==Information science: 5, 16, 79, 179-80==
 - See also Computer science 
 Intensity: and assemblage, 4
 - and body without organs, 31, 153, 157-58, 161, 164-65
@@ -1282,8 +1282,8 @@ Krishna: and body without organs, 151
 Kristeva, Julia: 523 n. 27, 528 n. 8, 559-60 n. 70 
 La Boetie, Etienne de: 359 
 ==Labor: and smooth and striated space, 490-92==
-- ==surplus, as apparatus of capture, 441-42
-- See also Capitalism; Capture; Marx, Karl== 
+- ==surplus, as apparatus of capture, 441-42==
+- ==See also Capitalism; Capture; Marx, Karl==
 Laborit, Henri: 535 n. 13 
 Labov, William: 93-94, 103, 524 nn. 7, 10, 526 n. 28 
 Lacan, Jacques: x, 26, 171, 529 n. 9, 543 n. 71
@@ -1490,16 +1490,16 @@ Marshall, Alexander James: 550 n. 34
 Marshall Plan: and capitalist axiomatic, 462 
 Martinet, Andre: 64, 528 n. 46, 530 n. 30 
 Martino, Ernesto de: 546 n. 97 
-Marx, Karl: 558 n. 61, 567 nn. 27-28, 31-32, 568 n. 34, 568-69 n. 41, 570 n. 59
-- and book, 127
-- and capitalist axiomatic, 454, 463
-- and capture, 443
-- and State apparatus, 427-28, 447-48
-- and subjectivity, 453
-- and surplus value, 491-92. 
-- See also Capitalism; State apparatus 
-Marxism: and major language, 105
-- and State apparatus, xi 
+==Marx, Karl: 558 n. 61, 567 nn. 27-28, 31-32, 568 n. 34, 568-69 n. 41, 570 n. 59==
+- ==and book, 127==
+- ==and capitalist axiomatic, 454, 463==
+- ==and capture, 443==
+- ==and State apparatus, 427-28, 447-48==
+- ==and subjectivity, 453==
+- ==and surplus value, 491-92.== 
+- ==See also Capitalism; State apparatus== 
+==Marxism: and major language, 105==
+- ==and State apparatus, xi== 
 Masochism: and becoming-animal, 155-56, 260
 - and body without organs, 150, 152, 155-56 
 Mathematics: nomadic nature of, 24
@@ -1730,7 +1730,7 @@ Order-word: and content and expression, 108-9
 - and variation, 94-95
 - See also Linguistics 
 Oresme, Nicholas: 540 n. 29 
-Organ: and becoming-animal, 258-59
+==Organ==: and becoming-animal, 258-59
 - and machine, 256
 - See also Body; Body without organs 
 Organism: and assemblage, 4
@@ -1862,7 +1862,7 @@ Poststructuralism: and State philosophy, xi-xii
 Potemkin: 184 
 Pottier, Rene: 560 n. 72 
 Pound, Ezra: 105, 176, 200, 520 n. 18 
-[[Power]] (pouvoir): arborescent structure, of, 17
+[[power]] (pouvoir): arborescent structure, of, 17
 - definition of, xvii
 - and faciality, 175
 - and language, 7, 75-76, 95, 101, 105-6
@@ -2107,10 +2107,7 @@ Segmentarity: and coding, 222-24
 - rigid, 212
 - and State apparatus, 218, 222-27
 - supple, 213. 
-- See also Consistency; 
-State apparatus; 
-Stratification; 
-Striated space 
+- See also Consistency; State apparatus; Stratification; Striated space 
 Self (Moi): definition of, xvii-xviii
 - and order-word, 84
 - and subjedification, 132, 133
@@ -2119,18 +2116,13 @@ Self (Moi): definition of, xvii-xviii
 Semantics: and speech acts, 77-78. 
 - See also Linguistics 
 Semiology: and regime of signs, 111-12 
-- See also Language
-- Linguistics; 
-Sign; 
-Signifiance 
+- See also Language; Linguistics; Sign; Signifiance 
 Semiotic: and deterritorialization, 135
 - and faciality, 180-82
 - and regime of signs, 136
 - State apparatus, 135
 - transformation of, 136-39. 
-- See also Language; Linguistics; Regime of signs; 
-Sign; 
-Signifiance 
+- See also Language; Linguistics; Regime of signs; Sign; Signifiance 
 Sephiha, Vidal: 527 n. 35 
 Serieux, Paul: 119-20 
 Serres, Michel: 361, 371-72, 489-90, 519 n. 13, 554 n. 24, 555 n. 32 

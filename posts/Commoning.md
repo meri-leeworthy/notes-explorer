@@ -1,3 +1,6 @@
+---
+type: topic
+---
 Practising Commoning
 https://commonslibrary.org/practising-commoning/
 
@@ -10,3 +13,7 @@ https://commonslibrary.org/practising-commoning/
 >The common is not to be construed, therefore, as a particular kind of thing, asset or even social process, but as an unstable and malleable social relation between a particular self-defined social group and those aspects of its actually existing or yet-to-be-created social and/or physical environment deemed crucial to its life and livelihood. There is, in effect, a social practice of commoning. – [David Harvey 2012](https://www.worldcat.org/title/767564397)
 
 [[Housing as Commons]]: Housing Alternatives as Response to the Current Urban Crisis [Stavros Stavrides and Penny Travlou, eds. (2022)](https://doi.org/10.5040/9781350234543)
+
+apparently associated with [[autonomist Marxism]]
+
+[https://thecommoner.org/](https://thecommoner.org/)

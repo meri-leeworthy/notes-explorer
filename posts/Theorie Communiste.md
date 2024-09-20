@@ -1,1 +1,4 @@
+---
+type: organisation
+---
 [[communisation]]
