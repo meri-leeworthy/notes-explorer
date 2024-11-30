@@ -1,6 +1,6 @@
 ---
 aliases:
-  - political ontology
+  - Political Ontology
 type: topic
 ---
 From [[Mario Blaser]] biography:
@@ -30,3 +30,6 @@ From [[Mario Blaser]] biography:
 >**Design ­under Ontological Occupation: The PO of Territorial Strug­gles**
 >From a PO perspective, it can be argued that globalization has taken place at the expense of relational and nondualist worlds worldwide. ­Today, eco­nom­ically, culturally, and militarily we are witnessing a renewed attack on anything relational and collective. Indeed, the twin forces of expulsion (Sassen 2014) and occupation can be said to constitute the chief logic of the current pattern of global domination.19 ==The occupation of p­eople's territories by capital, the State, and at times armed actors implies economic, technological, cultural, ecological, and often military aspects, but its most fundamental dimension is ontological. From this perspective, what occupies territories is a par­tic­ul­ar ontology, that of individuals, expert knowledge, markets, and the economy.== This is the merciless world of the 1 ­percent (or, say, 10 ­percent) denounced by the Occupy and Spain's indignados movements, foisted on the 90 ­percent and the natu­ral world with ever-i­ncreasing virulence, cynicism, and illegality, since more than ever ­legal signals only a self-­serving set of rules that imperialize the desires of the power­ful (from the World Trade Organ­ization and the invasion of countries with the acquiescence of the so-­called international community of occupiers, to the ­legal ongoing police occupation of poor ethnic neighborhoods, as the case of Ferguson and ­others fi­nally made clear to many ­people in the United States).
 >\[...] By resisting the neoliberal globalizing project, many marginalized communities are advancing ontological struggles for the perseverance and enhancement of the pluriverse.
+
+>Mainstream social science identifies capitalism as an economic system based in markets organized by free competition and spurred by the profit motive. But where is ==the power to make and destroy worlds== in this formulation, to draw everything into its orbit, to permeate and transform every physical and psychic cell of earthly life?
+>Wendy Brown, foreword to [[Capital (Marx)]]

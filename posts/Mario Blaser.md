@@ -3,7 +3,7 @@ aliases:
   - Blaser, Mario
 type: person
 ---
-[[Political Ontology]]
+[[political ontology]]
 [[Life Projects]]
 [[In the Way of Development - Indigenous Peoples, Life Projects and Globalization]]
 

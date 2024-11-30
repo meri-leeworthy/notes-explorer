@@ -1,3 +1,6 @@
+---
+type: topic
+---
 Presuppositions to a design process:
 1. Every community practices the design of itself
 2. people are practitioners of their own knowledge

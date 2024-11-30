@@ -7,3 +7,4 @@ type: person
 
 [[Project Cybersyn]]
 
+[[Brain of the Firm]]

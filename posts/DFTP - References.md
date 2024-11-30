@@ -442,7 +442,9 @@ Lohmann, Larry. 2011. "The Endless Algebra of Climate Markets." Capitalism, Natu
 
 Lozano, Betty Ruth. 2015. "Pedagogías para la vida, la alegría y la reexistencia: Pedagogías de   mujeres negras que curan y vinculan." Unpublished manuscript, Cali. 
 
-Lubarski, Sandra. 2014. "Living Beauty." In Keeping the Wild, edited by George Wuerthner,   Eileen Crist, and Tom Butler, 188-196. Washington, DC: Island Press. Lugones, María. 2010a. "The Coloniality of Gender." In Globalization and the Decolonial Op  tion, edited by Walter Mignolo and Arturo Escobar, 369-390. London: Routledge. 
+Lubarski, Sandra. 2014. "Living Beauty." In Keeping the Wild, edited by George Wuerthner,   Eileen Crist, and Tom Butler, 188-196. Washington, DC: Island Press. 
+
+Lugones, María. 2010a. "The Coloniality of Gender." In Globalization and the Decolonial Option, edited by [[Walter D. Mignolo]] and [[Arturo Escobar]], 369-390. London: Routledge. 
 
 Lugones, María. 2010b. "­Toward a Decolonial Feminism." Hypatia 25 (4): 742-760. 
 

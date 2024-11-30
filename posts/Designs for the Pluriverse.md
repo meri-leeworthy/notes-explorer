@@ -113,14 +113,29 @@ decolonial theory,
 - of the South, 67–69, 250n17
 [[feminist political ecology]],
 - 51-52, 64-66, 146, 250n17
-Flores, Fernando, 
-- 92, 92, 105, 110, 123; on ontological design, xiv, 42, 116, 241n1; on organizational theory, 245n8; on Project Cybersyn, 251n1
+[[Fernando Flores|Flores, Fernando]], 
+- 92, 92, 105, 110, 123; 
+- on ontological design, xiv, 42, 116, 241n1; 
+- on organizational theory, 245n8; 
+- on Project Cybersyn, 251n1
+[[Tools for Conviviality|Illich, Ivan]],
+-  7–10, 200, 211; 
+- popular communications and, 229n2; 
+- on social transitions, 139; 
+- on technology, 230n5
 [[Marxism]],
 -  20, 46, 62–63, 83, 229n2, 244n19
 [[Humberto Maturana|Maturana, Humberto]], 
-- xii, 3, 33, 79, 205, 232n9; on autopoiesis, xiv, 5, 168–72, 183; on biology of love, 13, 83, 171, 241n1; on cognition, 42, 81, 240n1, 252n1; on interconnected communities, 213–14; on “matristic cultures,” 12–14; on rational- ism, 82; on structural coupling, 169
+- xii, 3, 33, 79, 205, 232n9; 
+- on [[autopoiesis]], xiv, 5, 168–72, 183; 
+- on biology of love, 13, 83, 171, 241n1; 
+- on cognition, 42, 81, 240n1, 252n1; 
+- on interconnected communities, 213–14; 
+- on “matristic cultures,” 12–14; 
+- on rationalism, 82; 
+- on structural coupling, 169
 [[Modernity]]
-- modernity, 83–91; 
+- 83–91; 
 - critical analysis of, 80; 
 - design and, 32; 
 - Eurocentric, 67–68, 81, 93; 
@@ -159,7 +174,7 @@ Flores, Fernando,
 - Leff on, 124; 
 - postdualist, 64; 
 - schools of, 238n12
-[[Political Ontology]] (PO) 
+[[political ontology]] (PO) 
 poststructuralism, 
 - 46, 63, 88, 234n14; 
 - complexity theories and, 252n4; 

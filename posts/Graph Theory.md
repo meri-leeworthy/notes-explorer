@@ -1,3 +1,6 @@
+---
+type: topic
+---
 [[Graphs, vertices, and edges]]
 [[Adjacency Matrices and Lists]]
 [[Planar Graphs]]
