@@ -1,4 +1,4 @@
-.post p {
+/* .post p {
   @apply text-sm;
 }
 
@@ -36,6 +36,10 @@
 
 .post ul li p {
   @apply py-0 my-0;
+} */
+
+.post code {
+  @apply bg-purple-300;
 }
 
 .post blockquote {

@@ -1,13 +1,13 @@
 import { unified } from "unified"
 import rehypeSanitize from "rehype-sanitize"
 import * as prod from "react/jsx-runtime"
-import rehypeStringify from "rehype-stringify"
+// import rehypeStringify from "rehype-stringify"
 import remarkParse from "remark-parse"
 import remarkRehype from "remark-rehype"
 import rehypeReact from "rehype-react"
 // import { useRemarkSync } from "react-remark"
-import { citePlugin } from "@benrbray/remark-cite"
-import remarkObsidian from "remark-obsidian"
+// import { citePlugin } from "@benrbray/remark-cite"
+// import remarkObsidian from "remark-obsidian"
 import React, { Suspense } from "react"
 
 // @ts-expect-error: the react types are missing.

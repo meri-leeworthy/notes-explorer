@@ -2,8 +2,8 @@ import styles from "./page.module.css"
 import { getPost } from "lib/markdown"
 import { Markdown } from "components/Markdown"
 import Image from "next/image"
-import { redirect } from "next/navigation"
-import Link from "next/link"
+// import { redirect } from "next/navigation"
+// import Link from "next/link"
 
 export default async function Post({ params }: { params: { slug: string } }) {
   try {
@@ -19,7 +19,7 @@ export default async function Post({ params }: { params: { slug: string } }) {
   const post = getPost(params.slug)
   return (
     <article
-      className={`flex flex-col items-center mx-auto max-w-3xl w-full ${styles.post}`}>
+      className={`prose flex flex-col items-center mx-auto max-w-prose w-full ${styles.post}`}>
       <div
         className={`relative w-full lg:w-[48rem] mb-12 ${
           post.data.image ? "aspect-video" : "h-10"
