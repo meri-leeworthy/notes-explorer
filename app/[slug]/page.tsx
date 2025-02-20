@@ -34,7 +34,7 @@ export default async function Post({ params }: { params: { slug: string } }) {
           </div>
         )}
         <div className="absolute bottom-0 w-4/5 left-1">
-          <h1 className="text-lg lg:text-2xl font-title inline px-1 py-[2px] leading-8 bg-purple-300 border border-black border-opacity-40 rounded-lg shadow-xl box-decoration-clone">
+          <h1 className="inline px-2 py-2 text-lg leading-8 bg-purple-300 rounded-lg shadow-xl lg:text-2xl font-title box-decoration-clone">
             {decodeURIComponent(post.slug)}
           </h1>
         </div>

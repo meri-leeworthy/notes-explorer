@@ -7,7 +7,11 @@ module.exports = {
       mono: ["Space-Mono", "monospace"],
       sans: ["Vercetti", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      colors: {
+        "purple-300": "#F147FF",
+      },
+    },
   },
   plugins: [require("@tailwindcss/typography")],
 }

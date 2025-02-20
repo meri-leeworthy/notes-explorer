@@ -9,7 +9,7 @@ export default function Article({ post }: { post: Post }) {
   return (
     <article className="card">
       <Link href={`${post.slug}`} className="no-underline">
-        <h3 className="inline px-1 py-[2px] text-lg sm:text-[1rem] leading-8 sm:leading-7 bg-purple-300 border text-black border-black border-opacity-40 rounded font-title box-decoration-clone">
+        <h3 className="inline px-2 py-1 text-lg sm:text-[1rem] leading-8 sm:leading-7 bg-purple-300 text-black rounded font-title box-decoration-clone">
           {post.slug}
         </h3>
       </Link>
