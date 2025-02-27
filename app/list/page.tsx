@@ -2,7 +2,7 @@ import styles from "./page.module.css"
 import { PostListClient } from "./post-list-client"
 // import { posts } from "lib/markdown"
 
-export default function ListPage({ params }: { params: { slug: string } }) {
+export default function ListPage() {
   return (
     <main className={`${styles.post}`}>
       <div className="mb-4 ">
