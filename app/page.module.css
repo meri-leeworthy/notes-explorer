@@ -1,6 +1,4 @@
-@reference "../globals.css";
-
-
+@reference "./globals.css";
 
 .emojilist li {
   display: list-item;
@@ -20,4 +18,83 @@
   border-radius: 50%;
   filter: blur(2rem);
   inset: 20px 0;
+}
+
+.post {
+  @apply flex flex-col self-center mt-8 mx-auto max-w-4xl w-full;
+}
+
+.post p {
+  @apply text-sm;
+}
+
+.post ul {
+  @apply list-outside ml-4 list-disc text-sm;
+}
+
+.post li {
+  @apply my-1;
+}
+
+.post table {
+  @apply w-full text-sm font-mono mb-6;
+}
+
+.post table tr {
+  @apply border-b border-slate-200;
+}
+
+.post table td {
+  @apply text-slate-700 font-normal text-left pr-2 py-1;
+}
+
+.post table th {
+  @apply text-slate-700 font-bold text-left pr-2;
+}
+
+.post h1 {
+  @apply text-3xl font-bold my-4 font-title;
+}
+
+.post h2 {
+  @apply text-2xl font-bold my-4 font-title;
+}
+
+.post strong {
+  @apply font-bold;
+}
+
+.post ul {
+  @apply w-full;
+}
+
+.post ul li {
+  @apply py-0 my-0;
+}
+
+.post ul li p {
+  @apply py-0 my-0;
+}
+
+.post blockquote {
+  @apply border-l-4 border-slate-700 pl-4 my-4;
+}
+
+.post section.backlinks {
+  @apply mt-6;
+}
+.post section h2, .post section ul li {
+  @apply text-slate-700;
+}
+
+.post form {
+  @apply flex flex-col gap-2 font-mono text-sm text-slate-700 mb-4 mt-2;
+}
+
+.post form fieldset {
+  @apply flex gap-2;
+}
+
+.post form fieldset button {
+  @apply border border-purple-300 rounded-lg shadow-xl box-decoration-clone px-2;
 }

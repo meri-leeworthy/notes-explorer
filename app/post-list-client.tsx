@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import type { Post } from "lib/types"
 
-type SortField = "year" | "case" | "jurisdiction" | "tags"
+type SortField = "year" | "case"
 type SortDirection = "asc" | "desc"
 
 export function PostListClient({ type }: { type: string }) {
@@ -67,17 +67,6 @@ export function PostListClient({ type }: { type: string }) {
           return (a.data?.year - b.data?.year) * multiplier
         case "case":
           return a.slug.localeCompare(b.slug) * multiplier
-        case "jurisdiction":
-          return (
-            a.data?.jurisdiction?.localeCompare(b.data?.jurisdiction) *
-            multiplier
-          )
-        case "tags":
-          return (
-            a.data?.tags
-              ?.sort()?.[0]
-              ?.localeCompare(b.data?.tags?.sort()?.[0]) * multiplier
-          )
         default:
           return 0
       }
@@ -94,7 +83,7 @@ export function PostListClient({ type }: { type: string }) {
           <legend>Filter by tag:</legend>
           <button
             type="button"
-            className="data-active:bg-purple-300/50"
+            className="data-[active=true]:bg-purple-300/50"
             data-active={filterTag === "sexual-harassment"}
             onClick={() =>
               setFilterTag(
@@ -105,7 +94,7 @@ export function PostListClient({ type }: { type: string }) {
           </button>
           <button
             type="button"
-            className="data-active:bg-purple-300/50"
+            className="data-[active=true]:bg-purple-300/50"
             data-active={filterTag === "discrimination"}
             onClick={() =>
               setFilterTag(
@@ -119,7 +108,7 @@ export function PostListClient({ type }: { type: string }) {
           <legend>Filter by jurisdiction:</legend>
           <button
             type="button"
-            className="data-active:bg-purple-300/50"
+            className="data-[active=true]:bg-purple-300/50"
             data-active={filterJurisdiction === "VCAT"}
             onClick={() =>
               setFilterJurisdiction(
@@ -130,7 +119,7 @@ export function PostListClient({ type }: { type: string }) {
           </button>
           <button
             type="button"
-            className="data-active:bg-purple-300/50"
+            className="data-[active=true]:bg-purple-300/50"
             data-active={filterJurisdiction === "Federal"}
             onClick={() =>
               setFilterJurisdiction(
@@ -164,27 +153,9 @@ export function PostListClient({ type }: { type: string }) {
                 {sortField === "case" && (sortDirection === "asc" ? "↑" : "↓")}
               </button>
             </th>
-            <th>
-              <button
-                onClick={() => handleSort("jurisdiction")}
-                className={`w-full text-left px-4 py-2 hover:bg-gray-100 rounded ${
-                  sortField === "jurisdiction" ? "font-bold" : ""
-                }`}>
-                Jurisdiction{" "}
-                {sortField === "jurisdiction" &&
-                  (sortDirection === "asc" ? "↑" : "↓")}
-              </button>
-            </th>
-            <th>
-              <button
-                onClick={() => handleSort("tags")}
-                className={`w-full text-left px-4 py-2 hover:bg-gray-100 rounded ${
-                  sortField === "tags" ? "font-bold" : ""
-                }`}>
-                Tag{" "}
-                {sortField === "tags" && (sortDirection === "asc" ? "↑" : "↓")}
-              </button>
-            </th>
+            <th>Jurisdiction</th>
+            <th>Tag</th>
+            <th>Damages</th>
           </tr>
         </thead>
         <tbody>
@@ -198,6 +169,7 @@ export function PostListClient({ type }: { type: string }) {
               <td className="px-4 py-2">
                 {post.data.tags?.map((tag: string) => tag).join(", ")}
               </td>
+              <td className="px-4 py-2">{post.data.damages}</td>
             </tr>
           ))}
         </tbody>

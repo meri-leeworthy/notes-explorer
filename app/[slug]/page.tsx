@@ -43,22 +43,48 @@ export default async function Post(props: {
       <main className="w-full max-w-lg">
         {post.data && (
           <table>
-            {"author" in post.data && (
-              <tr>
-                <th>Author</th>
-                <td>{post.data.author}</td>
-              </tr>
-            )}
-            {"type" in post.data && (
-              <tr>
-                <th>Type</th>
-                <td>{post.data.type}</td>
-              </tr>
-            )}
             {"year" in post.data && (
               <tr>
                 <th>Year</th>
                 <td>{post.data.year}</td>
+              </tr>
+            )}
+            {"citation" in post.data && (
+              <tr>
+                <th>Citation</th>
+                <td>{post.data.citation}</td>
+              </tr>
+            )}
+            {"jurisdiction" in post.data && (
+              <tr>
+                <th>Jurisdiction</th>
+                <td>{post.data.jurisdiction}</td>
+              </tr>
+            )}
+            {"judge" in post.data && (
+              <tr>
+                <th>Judge</th>
+                <td>{post.data.judge}</td>
+              </tr>
+            )}
+            {"damages" in post.data && (
+              <tr>
+                <th>Damages</th>
+                <td>{post.data.damages}</td>
+              </tr>
+            )}
+            {"uri" in post.data && (
+              <tr>
+                <th>URI</th>
+                <td>
+                  <a href={post.data.uri}>{post.data.uri}</a>
+                </td>
+              </tr>
+            )}
+            {"judicial treatment" in post.data && (
+              <tr>
+                <th>Judicial Treatment</th>
+                <td>{post.data["judicial treatment"]}</td>
               </tr>
             )}
           </table>

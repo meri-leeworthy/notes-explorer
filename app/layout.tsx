@@ -15,7 +15,7 @@ export default function RootLayout({
         <div className="flex flex-col items-center w-screen px-4 pt-16 isolate">
           {children}
         </div>
-        <Footer />
+        {/* <Footer /> */}
         <svg className="w-0 h-0">
           <filter id="white-alpha">
             <feColorMatrix
