@@ -1,2 +1,0 @@
-[[socialist planning]]
-[[Fernando Flores]]

@@ -1,2 +1,0 @@
-- [[ITO4132 Introduction to Databases TP6-23]]
--

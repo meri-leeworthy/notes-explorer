@@ -1,5 +1,0 @@
-[[Linear Systems]]
-[[Gaussian elimination]]
-[[Vector algebra glossary]]
-[[Matrix algebra glossary]]
-[[Matrix transformations glossary]]

@@ -1,1 +1,0 @@
-Cites [[Agrarian Class Structure and Economic Development in Pre-Industrial Europe]]

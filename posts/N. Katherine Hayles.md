@@ -1,4 +1,0 @@
----
-type: person
----
-[[Unthought]]

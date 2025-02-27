@@ -15,15 +15,16 @@ export const postSlugs = fs
   .filter(path => /\.md/.test(path))
   .map(path => path.slice(0, -3))
 
-export const getPost = (slug: string): Post => {
+export const getPost = async (slug: string): Promise<Post> => {
   // console.log(slug, decodeURIComponent(slug))
   const source = readFileSync(
     path.join(POSTS_PATH, decodeURIComponent(slug) + ".md")
   )
   const { content, data } = matter(source)
   const backlinks = backlinksMap[slug] || []
-  console.log(backlinks)
   return { data, slug, content, backlinks }
 }
 
-export const posts = postSlugs.map(slug => getPost(slug))
+export const posts = Promise.all(
+  postSlugs.map(async slug => await getPost(slug))
+)

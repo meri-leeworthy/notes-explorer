@@ -1,1 +1,0 @@
-[[Anonymity in Attribute-Based Access Control - Framework and Metric]]

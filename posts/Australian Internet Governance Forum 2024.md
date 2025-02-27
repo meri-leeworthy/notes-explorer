@@ -1,1 +1,0 @@
-[[Challenges of cybersecurity]]

@@ -1,2 +1,0 @@
-[[Karl Marx|Marx]]
-
